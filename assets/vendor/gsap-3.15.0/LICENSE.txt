@@ -1,0 +1,2 @@
+﻿GSAP 3.15.0 - Standard 'no charge' license (free, incl. commercial client sites): https://gsap.com/standard-license
+Not allowed: using GSAP inside a tool that competes with Webflow (a no-code visual animation builder).

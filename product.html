@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guitar — Riley Guitars</title>
+<meta name="description" content="A one-of-one boutique guitar from Riley Guitars, Everett, Washington.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="assets/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/vendor/lenis-1.3.26/lenis.css">
+<script>if(!window.matchMedia||!matchMedia("(prefers-reduced-motion: reduce)").matches){document.documentElement.classList.add("fx-pending");setTimeout(function(){document.documentElement.classList.remove("fx-pending")},3000)}</script>
+</head>
+<body data-page="product">
+<div id="site-header"></div>
+
+<main id="main">
+  <div class="container" style="padding-top:24px">
+    <nav class="crumbs" aria-label="Breadcrumb"><a href="store.html">Store</a><span aria-hidden="true">/</span><span id="crumb-title"></span></nav>
+  </div>
+
+  <div class="container product" id="product"></div>
+
+  <section class="section border-top bg-surface" aria-labelledby="related-title">
+    <div class="container">
+      <div class="section-head row">
+        <div class="stack">
+          <span class="eyebrow accent">Also in stock</span>
+          <h2 id="related-title" class="section-title">More from the wall.</h2>
+        </div>
+        <a class="link-arrow" href="store.html">View the whole store</a>
+      </div>
+      <div class="cards-grid" id="related"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendor/gsap-3.15.0/gsap.min.js"></script>
+<script src="assets/vendor/gsap-3.15.0/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis-1.3.26/lenis.min.js"></script>
+<script src="assets/js/effects.js"></script>
+<script>
+  (function () {
+    var UI = window.RileyUI, R = window.RILEY, esc = UI.esc, S = R.site;
+    var p = UI.getProduct(UI.param('p')) || R.products[0];   // unknown slug -> first product
+    var model = UI.getModel(p.modelSlug);
+
+    document.title = p.title + ' — Riley Guitars';
+    document.querySelector('meta[name="description"]').setAttribute('content', p.intro[0]);
+    document.getElementById('crumb-title').textContent = p.title;
+
+    var slides = p.images.map(function (src, i) {
+      return '<a href="' + esc(src) + '" data-lightbox="product" data-caption="' + esc(p.title) + '" id="slide-' + i + '" aria-label="Photo ' + (i + 1) + ' of ' + p.images.length + ', open larger">' +
+        '<img src="' + esc(src) + '" alt="' + esc(p.title + (i ? ' — detail view' : ' — full view')) + '" width="1067" height="1334"' + (i ? ' loading="lazy"' : ' fetchpriority="high"') + '></a>';
+    }).join('');
+    var thumbs = p.images.map(function (src, i) {
+      return '<button type="button" data-slide="' + i + '" aria-label="Show photo ' + (i + 1) + '"' + (i === 0 ? ' aria-current="true"' : '') + '><img src="' + esc(src) + '" alt="" width="144" height="180" loading="lazy"></button>';
+    }).join('');
+
+    var check = UI.icons.check;
+    var specs = p.specs.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+    var ship = p.shipping ? '<div class="notice">' + check + '<span>' + esc(p.shipping) + '</span></div>' : '';
+
+    document.getElementById('product').innerHTML =
+      '<div class="gallery"><div class="gallery-main" id="gallery-main" tabindex="0" aria-label="Product photos, swipe to browse">' + slides + '</div>' +
+      (p.images.length > 1 ? '<div class="gallery-thumbs">' + thumbs + '</div>' : '') + '</div>' +
+      '<div class="product-info">' +
+        '<div class="cluster"><span class="eyebrow">' + esc(p.model) + ' &middot; ' + esc(p.type) + '</span><span class="badge badge-stock">In stock</span></div>' +
+        '<h1>' + esc(p.title) + '</h1>' +
+        '<p class="price">' + UI.money(p.price) + '</p>' +
+        '<div class="product-intro">' + p.intro.map(function (t) { return '<p>' + esc(t) + '</p>'; }).join('') + '</div>' +
+        '<div class="buy-box">' +
+          '<button class="btn btn-primary btn-block" type="button" data-add-to-cart="' + esc(p.id) + '">Add to cart</button>' +
+          '<div class="notice">' + check + '<span><strong>One of one.</strong> This exact guitar is in stock and ready to ship from our Everett shop.</span></div>' + ship +
+        '</div>' +
+        '<div class="accordion mt-3">' +
+          '<details open><summary>Specifications</summary><div class="acc-body"><ul class="spec-list">' + specs + '</ul></div></details>' +
+          (model ? '<details><summary>About the ' + esc(model.name) + '</summary><div class="acc-body"><p>' + esc(model.tagline) + '</p><p><a class="link-arrow" href="model.html?m=' + esc(model.slug) + '">See the model &amp; build your own</a></p></div></details>' : '') +
+        '</div>' +
+        '<div class="contact-card"><h3>Questions?</h3><p>Call <a href="tel:' + esc(S.phoneHref) + '">' + esc(S.phone) + '</a> or email <a href="mailto:' + esc(S.email) + '">' + esc(S.email) + '</a>.<br><span class="muted">' + esc(S.hours) + '</span></p></div>' +
+      '</div>';
+
+    // gallery: thumbs scroll the snap strip; strip updates the active thumb
+    var main = document.getElementById('gallery-main'), btns = [].slice.call(document.querySelectorAll('.gallery-thumbs button'));
+    btns.forEach(function (b) {
+      b.addEventListener('click', function () {
+        var i = Number(b.getAttribute('data-slide'));
+        main.scrollTo({ left: main.clientWidth * i, behavior: 'smooth' });
+      });
+    });
+    main.addEventListener('scroll', function () {
+      var i = Math.round(main.scrollLeft / main.clientWidth);
+      btns.forEach(function (b, n) { if (n === i) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+    }, { passive: true });
+
+    var others = R.products.filter(function (x) { return x.id !== p.id; });
+    document.getElementById('related').innerHTML = others.slice(0, 4).map(UI.productCard).join('');
+  })();
+</script>
+</body>
+</html>

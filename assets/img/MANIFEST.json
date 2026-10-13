@@ -1,0 +1,761 @@
+{
+  "metadata": {
+    "total_images": 168,
+    "generated": "2026-09-30",
+    "optimization": {
+      "full_quality": 80,
+      "full_max_long_edge": 1600,
+      "thumbnail_max_long_edge": 700
+    }
+  },
+  "logo": "logo.png",
+  "favicon": "favicon.ico",
+  "home": {
+    "hero": {
+      "file": "custom-build-collage-1.jpg",
+      "description": "Home image"
+    },
+    "mosaic": [
+      {
+        "file": "img-4640.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4655.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4666.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4674.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4679.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4686.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "img-4703.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "pic-4.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "riley-guitars-50.jpg",
+        "description": "Home image"
+      },
+      {
+        "file": "square-v2-edited-282-29.jpg",
+        "description": "Home image"
+      }
+    ]
+  },
+  "products": {
+    "cub-v-green-paisley-nitro-relic": {
+      "title": "Cub V - Green Paisley Nitro Relic",
+      "price": "$3,299.00",
+      "images": [
+        {
+          "file": "img-4703.jpg",
+          "description": "IMG_4703.jpg"
+        },
+        {
+          "file": "img-4705.jpg",
+          "description": "IMG_4705.jpg"
+        },
+        {
+          "file": "img-4703.jpg",
+          "description": "Cub V - Green Paisley Nitro Relic product image"
+        }
+      ]
+    },
+    "super-58-raw-black": {
+      "title": "Super '58 - Raw Black",
+      "price": "$2,125.00",
+      "images": [
+        {
+          "file": "img-4640.jpg",
+          "description": "IMG_4640.jpg"
+        },
+        {
+          "file": "img-4644.jpg",
+          "description": "IMG_4644.jpg"
+        },
+        {
+          "file": "img-4640.jpg",
+          "description": "Super '58 - Raw Black product image"
+        }
+      ]
+    },
+    "s-plus-raw-ice-blue": {
+      "title": "S Plus - Raw Ice Blue",
+      "price": "$2,499.00",
+      "images": [
+        {
+          "file": "img-4674.jpg",
+          "description": "IMG_4674.jpg"
+        },
+        {
+          "file": "img-4676.jpg",
+          "description": "IMG_4676.jpg"
+        },
+        {
+          "file": "img-4674.jpg",
+          "description": "S Plus - Raw Ice Blue product image"
+        }
+      ]
+    },
+    "nomad-aged-chery": {
+      "title": "Nomad - Aged Cherry",
+      "price": "$2,650.00",
+      "images": [
+        {
+          "file": "img-4679.jpg",
+          "description": "IMG_4679.jpg"
+        },
+        {
+          "file": "img-4681.jpg",
+          "description": "IMG_4681.jpg"
+        },
+        {
+          "file": "img-4679.jpg",
+          "description": "Nomad - Aged Cherry product image"
+        }
+      ]
+    },
+    "super-58-silverburst-flake": {
+      "title": "Super '58 - Silverburst Flake",
+      "price": "$2,499.00",
+      "images": [
+        {
+          "file": "img-4666.jpg",
+          "description": "IMG_4666-Topaz-Sharpen-Auto-Denoise.jpg"
+        },
+        {
+          "file": "img-4670.jpg",
+          "description": "IMG_4670.jpg"
+        },
+        {
+          "file": "img-4666.jpg",
+          "description": "Super '58 - Silverburst Flake product image"
+        }
+      ]
+    },
+    "ranger-dark-walnut": {
+      "title": "Ranger - Dark Walnut",
+      "price": "$2,650.00",
+      "images": [
+        {
+          "file": "img-4686.jpg",
+          "description": "IMG_4686.jpg"
+        },
+        {
+          "file": "img-4691.jpg",
+          "description": "IMG_4691.jpg"
+        },
+        {
+          "file": "img-4686.jpg",
+          "description": "Ranger - Dark Walnut product image"
+        }
+      ]
+    },
+    "super-58-surf-green-satin": {
+      "title": "Super '58 - Surf Green Satin",
+      "price": "$2,125.00",
+      "images": [
+        {
+          "file": "img-4655.jpg",
+          "description": "IMG_4655.jpg"
+        },
+        {
+          "file": "img-4660.jpg",
+          "description": "IMG_4660.jpg"
+        },
+        {
+          "file": "img-4655.jpg",
+          "description": "Super '58 - Surf Green Satin product image"
+        }
+      ]
+    }
+  },
+  "models": {
+    "t-plus": {
+      "images": [
+        {
+          "file": "24a7483d-07f5-4e34-8e6b-3e5ee3c10c69.jpg",
+          "thumbnail": "24a7483d-07f5-4e34-8e6b-3e5ee3c10c69-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "2ef73088-2a49-43b4-a94d-4695406bc328.jpg",
+          "thumbnail": "2ef73088-2a49-43b4-a94d-4695406bc328-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "img-3825.jpg",
+          "thumbnail": "img-3825-sm.jpg",
+          "description": "Models image"
+        }
+      ]
+    },
+    "ranger": {
+      "images": [
+        {
+          "file": "img-0746.jpg",
+          "thumbnail": "img-0746-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimage3nieoq.jpg",
+          "thumbnail": "tempimage3nieoq-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimagex38w3d.jpg",
+          "thumbnail": "tempimagex38w3d-sm.jpg",
+          "description": "Models image"
+        }
+      ]
+    },
+    "nomad": {
+      "images": [
+        {
+          "file": "riley-guitars-gibson-shoot-76.jpg",
+          "thumbnail": "riley-guitars-gibson-shoot-76-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "riley-guitars-gibson-shoot-80.jpg",
+          "thumbnail": "riley-guitars-gibson-shoot-80-sm.jpg",
+          "description": "Models image"
+        }
+      ]
+    },
+    "bandit": {
+      "images": [
+        {
+          "file": "tempimagecoih7c.jpg",
+          "thumbnail": "tempimagecoih7c-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimageuhzg34.jpg",
+          "thumbnail": "tempimageuhzg34-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimagevllzfa.jpg",
+          "thumbnail": "tempimagevllzfa-sm.jpg",
+          "description": "Models image"
+        }
+      ]
+    },
+    "cub-v": {
+      "images": [
+        {
+          "file": "tempimageirn7ep.jpg",
+          "thumbnail": "tempimageirn7ep-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimagepvzozv.jpg",
+          "thumbnail": "tempimagepvzozv-sm.jpg",
+          "description": "Models image"
+        },
+        {
+          "file": "tempimagetzplid.jpg",
+          "thumbnail": "tempimagetzplid-sm.jpg",
+          "description": "Models image"
+        }
+      ]
+    }
+  },
+  "gallery": [
+    {
+      "file": "pic-1.jpg",
+      "description": "Three electric bass guitars resting on a patterned rug in front of a black wall and a black bench. The guitars are blue, white, and yellow."
+    },
+    {
+      "file": "pic-10.jpg",
+      "description": "A room with three electric guitars on the floor, two chairs, a black wall, and a patterned rug."
+    },
+    {
+      "file": "pic-11.jpg",
+      "description": "A black electric bass guitar leaning against a small amplifier, a pink electric guitar resting on a chair, and an amplifier on the floor, with a patterned rug underneath, against a plain wall."
+    },
+    {
+      "file": "pic-12.jpg",
+      "description": "Electric guitar leaning against a speaker cabinet in a music room."
+    },
+    {
+      "file": "pic-13.jpg",
+      "description": "Two electric guitars, one black with white pickguard and hardware, and one pink with tortoise shell pickguard, placed on a leopard patterned rug with an amplifier and a lamp in the background."
+    },
+    {
+      "file": "pic-2.jpg",
+      "description": "A person with tattoos on their arm is holding an acoustic guitar upright, wearing a ring on their finger and a black watch. The guitar has a sunburst finish and the person is in an indoor space with a ceiling with fluorescent lights."
+    },
+    {
+      "file": "pic-3.jpg",
+      "description": "A person with short brown hair, wearing a denim shirt, is crouched down and using a screwdriver to work on a black acoustic guitar. The guitar is placed on a green work surface. The background shows a desk with a lamp, some paperwork, and a small cab"
+    },
+    {
+      "file": "pic-4.jpg",
+      "description": "Person bending over on a carpeted floor working with a tool near a window with blinds, a guitar is partially visible in the foreground, and other tools on the floor."
+    },
+    {
+      "file": "pic-5.jpg",
+      "description": "Close-up of a guitar, with focus on the neck, on a green surface, with various objects including cups, papers, and a person working in the background near a window."
+    },
+    {
+      "file": "pic-6.jpg",
+      "description": "Two electric guitars, one black with a tortoiseshell pickguard and one natural wood, resting against a dark wall on a patterned rug."
+    },
+    {
+      "file": "pic-7.jpg",
+      "description": "Three electric guitars, a blue Fender Precision Bass and two Fender Stratocasters, one white and one sunburst, resting against a black background on a patterned rug."
+    },
+    {
+      "file": "pic-8.jpg",
+      "description": "An electric bass guitar resting on a patterned rug in front of a black wall and black sideboard, with a woven chair and some wall decorations in the background."
+    },
+    {
+      "file": "pic-9.jpg",
+      "description": "A beige electric guitar with a black pickguard leaning against a black and orange woven chair. The chair is next to a dark sofa, and there is a patterned rug on the floor. The background is a plain black wall."
+    },
+    {
+      "file": "riley-guitars-1.jpg",
+      "description": "An electric guitar with a tortoise shell pickguard resting on a black surface in front of a black wall and a black leather and wood bench."
+    },
+    {
+      "file": "riley-guitars-10.jpg",
+      "description": "Close-up of an electric guitar with a black body and a wood neck, resting on a black chair with a dark background."
+    },
+    {
+      "file": "riley-guitars-11.jpg",
+      "description": "Close-up of the headstock and tuning pegs of an acoustic guitar with a wooden finish on a black padded surface."
+    },
+    {
+      "file": "riley-guitars-12.jpg",
+      "description": "Close-up of a black electric guitar resting on a patterned rug, with a wooden furniture piece in the background."
+    },
+    {
+      "file": "riley-guitars-13.jpg",
+      "description": "Close-up view of the headstock of an acoustic guitar showing tuning pegs and strings against a black background."
+    },
+    {
+      "file": "riley-guitars-14.jpg",
+      "description": "A black electric guitar with a red neck and multiple control knobs, resting on a patterned rug in front of a black chair with wooden legs against a dark wall."
+    },
+    {
+      "file": "riley-guitars-15.jpg",
+      "description": "A yellow electric guitar with black and white pickguard and gold control knobs, resting on a patterned rug with a black lounge chair behind it."
+    },
+    {
+      "file": "riley-guitars-16.jpg",
+      "description": "Close-up of a wooden electric guitar's headstock showing tuning pegs and strings against a dark background."
+    },
+    {
+      "file": "riley-guitars-17.jpg",
+      "description": "Close-up of a yellow electric guitar resting on a black surface with a dark wall in the background."
+    },
+    {
+      "file": "riley-guitars-18.jpg",
+      "description": "Close-up of a wooden chair armrest with a curved, polished finish, against a blurred background of furniture or interior setting."
+    },
+    {
+      "file": "riley-guitars-19.jpg",
+      "description": "An electric bass guitar resting on a patterned rug in front of a wooden bench with a slatted backrest. A guitar amplifier is visible in the background."
+    },
+    {
+      "file": "riley-guitars-2.jpg",
+      "description": "Close-up of a guitar headstock with tuning pegs, a black headstock with the name 'RILEY' written in yellow on it."
+    },
+    {
+      "file": "riley-guitars-20.jpg",
+      "description": "Close-up of a guitar headstock with tuning pegs and strings, against a background of a wooden guitar body with a diagonal pattern."
+    },
+    {
+      "file": "riley-guitars-21.jpg",
+      "description": "Close-up of an electric guitar lying on a patterned rug, with a chair and a speaker in the background."
+    },
+    {
+      "file": "riley-guitars-3.jpg",
+      "description": "Pink electric guitar with tortoise shell pickguard leaning against a bench. Guitar has a single humbucker pickup and control knobs. A black amplifier is partially visible on the left side of the image, on a patterned carpeted floor."
+    },
+    {
+      "file": "riley-guitars-4.jpg",
+      "description": "Pink electric guitar with a tortoise shell pickguard, resting on a patterned rug in front of a wooden chair with a woven backrest."
+    },
+    {
+      "file": "riley-guitars-5.jpg",
+      "description": "A pink electric guitar resting on its side on a surface, with a black amplifier in the background and a bench or table behind it."
+    },
+    {
+      "file": "riley-guitars-6.jpg",
+      "description": "Close-up of guitar headstock with gold tuning pegs and a white label that says 'Made in USA' and the number '118' beneath it."
+    },
+    {
+      "file": "riley-guitars-7.jpg",
+      "description": "Two electric guitars, one black with tortoiseshell pickguard and one pink with tortoiseshell pickguard, leaning against a black bench on a patterned rug, against a plain dark wall."
+    },
+    {
+      "file": "riley-guitars-8.jpg",
+      "description": "Close-up of a black electric guitar with a tortoiseshell pickguard, resting on a patterned rug. In the background, a wooden chair with black upholstery is visible."
+    },
+    {
+      "file": "riley-guitars-9.jpg",
+      "description": "Close-up of an electric guitar with a tortoiseshell pickguard and control knobs, resting on a black surface with a textured background."
+    },
+    {
+      "file": "riley-triple-batch-1.jpg",
+      "description": "Green electric guitar resting on a patterned rug with a black background and wooden furniture."
+    },
+    {
+      "file": "riley-triple-batch-10.jpg",
+      "description": "Close-up of an acoustic guitar headstock with tuning pegs and strings, showing part of the guitar brand name, 'RHYTHM E.'"
+    },
+    {
+      "file": "riley-triple-batch-11.jpg",
+      "description": "A green electric guitar body with no strings, placed on a patterned rug in a living room. The neck of the guitar leans against a chair with a wooden frame and cushioned seat. A black leather couch and a wooden table are visible in the background."
+    },
+    {
+      "file": "riley-triple-batch-12.jpg",
+      "description": "Partially assembled electric guitar with a bright green body, a wooden neck, and tuning pegs on the headstock, positioned against a black background and resting on a dark surface."
+    },
+    {
+      "file": "riley-triple-batch-13.jpg",
+      "description": "Close-up of a lime green electric guitar body with the neck and headstock extending upward, positioned on a patterned rug near a dark wooden furniture and a black background."
+    },
+    {
+      "file": "riley-triple-batch-14.jpg",
+      "description": "Close-up of a partially assembled green electric guitar showing the neck joint, neck screws, and string bridge with coils of the string visible, on a patterned surface."
+    },
+    {
+      "file": "riley-triple-batch-15.jpg",
+      "description": "Close-up of a metal screw assembly with four springs attached, mounted on a green surface."
+    },
+    {
+      "file": "riley-triple-batch-16.jpg",
+      "description": "Close-up photo of a green metallic object with silver screws, part of a piece of equipment or machinery, with wooden and darker metallic components in the background."
+    },
+    {
+      "file": "riley-triple-batch-17.jpg",
+      "description": "Close-up of the neck and headstock of an electric guitar resting on a black leather sofa, with a wooden floor underneath."
+    },
+    {
+      "file": "riley-triple-batch-18.jpg",
+      "description": "Close-up of a guitar headstock with tuning pegs and serial number, set against a black background."
+    },
+    {
+      "file": "riley-triple-batch-19.jpg",
+      "description": "A green electric guitar resting on a patterned rug, with the neck leaning against a black leather bench and a wooden chair nearby, in a dimly lit room."
+    },
+    {
+      "file": "riley-triple-batch-2.jpg",
+      "description": "A green electric guitar with a white pickguard, resting against a black cushioned seat in a dimly lit room, with part of a patterned rug visible on the floor."
+    },
+    {
+      "file": "riley-triple-batch-20.jpg",
+      "description": "Close-up of a green electric guitar with a white pickguard, placed on a bed of pink flowers."
+    },
+    {
+      "file": "riley-triple-batch-21.jpg",
+      "description": "Close-up of a green electric guitar with white control knobs and a white pickguard, placed on pink and white tissue paper."
+    },
+    {
+      "file": "riley-triple-batch-22.jpg",
+      "description": "Close-up of a green electric guitar with a wooden fretboard and white control knobs, resting on a background of light pink petals and flowers."
+    },
+    {
+      "file": "riley-triple-batch-23.jpg",
+      "description": "Close-up of a green electric guitar neck with a wood fingerboard and metal strings, surrounded by soft pink and white artificial flowers."
+    },
+    {
+      "file": "riley-triple-batch-24.jpg",
+      "description": "Close-up of the back of a green electric guitar body with a metallic finish, showing the tremolo bridge area, surrounded by soft pink and white flowers."
+    },
+    {
+      "file": "riley-triple-batch-25.jpg",
+      "description": "Close-up of a green electric guitar with a wooden neck, surrounded by pale pink and white flower petals."
+    },
+    {
+      "file": "riley-triple-batch-26.jpg",
+      "description": "Close-up of the headstock of a mahogany ukulele with chrome tuning pegs and the phrase 'Made in USA 126' written on it, surrounded by white and peach hydrangea flowers."
+    },
+    {
+      "file": "riley-triple-batch-27.jpg",
+      "description": "The image shows the back of a wooden guitar headstock with chrome tuning pegs, set against a background of pink and white hydrangea flowers."
+    },
+    {
+      "file": "riley-triple-batch-28.jpg",
+      "description": "A wooden stick standing vertically surrounded by light pink artificial flowers with petals made from fabric."
+    },
+    {
+      "file": "riley-triple-batch-29.jpg",
+      "description": "Close-up photo of an acoustic guitar neck with tuning pegs, strings, and part of the headstock, placed on a bed of light pink artificial flowers."
+    },
+    {
+      "file": "riley-triple-batch-3.jpg",
+      "description": "Green electric guitar with a white pickguard, lying on a patterned black-and-white rug, with a black couch and a wooden chair in the background."
+    },
+    {
+      "file": "riley-triple-batch-30.jpg",
+      "description": "Close-up of a guitar headstock with silver tuning pegs, surrounded by light pink and white flower petals."
+    },
+    {
+      "file": "riley-triple-batch-31.jpg",
+      "description": "Close-up of a guitar headstock surrounded by pink and white artificial flowers."
+    },
+    {
+      "file": "riley-triple-batch-32.jpg",
+      "description": "Close-up of a black electric guitar with a tortoiseshell pickguard, white pickups, and control knobs, resting on a patterned fabric surface."
+    },
+    {
+      "file": "riley-triple-batch-33.jpg",
+      "description": "An electric guitar with a tortoise shell pickguard, sitting on a patterned rug near a wooden table with a black surface."
+    },
+    {
+      "file": "riley-triple-batch-34.jpg",
+      "description": "Close-up of an electric guitar's control panel with toggle switch, tone, and volume knobs on a black speckled surface."
+    },
+    {
+      "file": "riley-triple-batch-35.jpg",
+      "description": "Close-up of an electric guitar with a tortoiseshell pickguard, white pickups, and a dark fretboard with dot inlays."
+    },
+    {
+      "file": "riley-triple-batch-36.jpg",
+      "description": "Close-up of a black electric guitar with a brown tortoiseshell pickguard, showing the strings, bridge, and control knobs."
+    },
+    {
+      "file": "riley-triple-batch-37.jpg",
+      "description": "Close-up view of an electric guitar with a dark speckled finish, a tortoise shell pickguard, and a maple neck with dot inlays. The guitar has metal strings and control knobs visible at the bottom right corner."
+    },
+    {
+      "file": "riley-triple-batch-38.jpg",
+      "description": "Close-up of a black electric guitar with a tortoiseshell pickguard, wooden fretboard, and white pickups, resting on a patterned black and white rug."
+    },
+    {
+      "file": "riley-triple-batch-39.jpg",
+      "description": "Close-up of a black electric guitar with a sparkling, starry finish, a white pickguard, and chrome hardware, resting on a patterned surface."
+    },
+    {
+      "file": "riley-triple-batch-4.jpg",
+      "description": "Close-up of a green electric guitar with white pickguard, control knobs, and pickups, resting on a patterned surface."
+    },
+    {
+      "file": "riley-triple-batch-40.jpg",
+      "description": "Close-up of an electric guitar neck with fretboard and strings resting on a black leather surface."
+    },
+    {
+      "file": "riley-triple-batch-41.jpg",
+      "description": "Close-up view of the headstock and tuning pegs of a black electric guitar with the brand name 'FREELY' visible on the headstock, set against a dark background."
+    },
+    {
+      "file": "riley-triple-batch-42.jpg",
+      "description": "Close-up of an electric guitar with a tortoise shell pickguard, four control knobs, and steel strings, placed on a surface with a patterned cloth underneath."
+    },
+    {
+      "file": "riley-triple-batch-43.jpg",
+      "description": "Close-up of the headstock of a black electric guitar with silver tuning pegs and visible part of the fretboard, set against a dark background."
+    },
+    {
+      "file": "riley-triple-batch-44.jpg",
+      "description": "Close-up of the back of a black electric guitar with a sparkly finish, showing the neck joint, screws, and spring cavity, resting on a patterned rug with a wooden wall in the background."
+    },
+    {
+      "file": "riley-triple-batch-45.jpg",
+      "description": "An electric guitar with a black body and wood neck resting on a patterned rug, with a dark background."
+    },
+    {
+      "file": "riley-triple-batch-46.jpg",
+      "description": "Close-up of the back of a guitar body with four metal springs connected to a metal bridge."
+    },
+    {
+      "file": "riley-triple-batch-47.jpg",
+      "description": "Close-up of the neck of a wooden electric guitar resting on a black surface."
+    },
+    {
+      "file": "riley-triple-batch-48.jpg",
+      "description": "Close-up of a guitar headstock showing tuning pegs with 'HOSHINO Gakki' engraved, and a wooden part with 'MADE IN USA 1221' written on it."
+    },
+    {
+      "file": "riley-triple-batch-49.jpg",
+      "description": "Close-up of a guitar headstock showing tuning pegs on a wooden guitar neck."
+    },
+    {
+      "file": "riley-triple-batch-5.jpg",
+      "description": "Green electric guitar resting on a patterned rug with a black leather bench and a wooden chair in the background."
+    },
+    {
+      "file": "riley-triple-batch-50.jpg",
+      "description": "Black electric guitar with a red tortoiseshell pickguard lying on a patterned rug, surrounded by green leaves and white flowers, with a coiled orange guitar cable and a guitar effects pedal nearby."
+    },
+    {
+      "file": "riley-triple-batch-51.jpg",
+      "description": "Close-up of a black electric guitar with a red and black patterned pickguard, placed on a patterned carpet surrounded by white and green artificial flowers, with a coiled brown guitar strap nearby."
+    },
+    {
+      "file": "riley-triple-batch-52.jpg",
+      "description": "An electric guitar with a black body and a red pearl pickguard, placed on a patterned carpet, surrounded by white flowers and foliage. There is an effects pedal and a cable nearby."
+    },
+    {
+      "file": "riley-triple-batch-53.jpg",
+      "description": "An acoustic guitar resting on a black guitar case on a patterned rug. In the background, part of a black chair and wooden table leg are visible."
+    },
+    {
+      "file": "riley-triple-batch-54.jpg",
+      "description": "Close-up of a brown electric guitar, focusing on the fretboard and strings, with a blurred patterned surface visible in the background."
+    },
+    {
+      "file": "riley-triple-batch-55.jpg",
+      "description": "Close-up of a black acoustic guitar with a wooden fretboard, strings, and a cutaway body, placed on a patterned rug."
+    },
+    {
+      "file": "riley-triple-batch-56.jpg",
+      "description": "Close-up of an acoustic guitar's fretboard and bridge with white bridge pins and six strings."
+    },
+    {
+      "file": "riley-triple-batch-57.jpg",
+      "description": "Close-up of a guitar's sound hole, strings, and bridge with light reflection on wood surface."
+    },
+    {
+      "file": "riley-triple-batch-58.jpg",
+      "description": "Close-up of a guitar neck with fretboard and strings, showing wood grain and fret markers, against a blurred dark background."
+    },
+    {
+      "file": "riley-triple-batch-59.jpg",
+      "description": "Close-up of an acoustic guitar's neck and fretboard, resting on a black chair or surface."
+    },
+    {
+      "file": "riley-triple-batch-6.jpg",
+      "description": "Close-up of a green electric guitar with a maple neck and white pickguard, resting on a surface with a patterned rug visible near the bottom."
+    },
+    {
+      "file": "riley-triple-batch-60.jpg",
+      "description": "Close-up of an acoustic guitar neck with fretboard and strings, with a black background."
+    },
+    {
+      "file": "riley-triple-batch-61.jpg",
+      "description": "Close-up of a guitar fretboard showing frets, fret markers, and strings."
+    },
+    {
+      "file": "riley-triple-batch-62.jpg",
+      "description": "Close-up of the headstock of a Riley electric guitar with six tuning pegs and a black finish."
+    },
+    {
+      "file": "riley-triple-batch-63.jpg",
+      "description": "A black guitar-shaped object with silver tuning pegs placed on a black leather bench in front of a dark wall and a patterned rug on the floor."
+    },
+    {
+      "file": "riley-triple-batch-64.jpg",
+      "description": "Close-up of the back of an electric guitar showing part of its body, neck, and control components, placed on a patterned rug on a wooden floor."
+    },
+    {
+      "file": "riley-triple-batch-65.jpg",
+      "description": "Close-up of a black electric guitar leaning on a black chair with wooden accents, placed on a patterned rug."
+    },
+    {
+      "file": "riley-triple-batch-66.jpg",
+      "description": "Close-up of a black skateboard with metal bolts, with a black padded seat and a wooden-appearance surface in the background."
+    },
+    {
+      "file": "riley-triple-batch-67.jpg",
+      "description": "Close-up photo of a guitar headstock with tuning pegs, resting against a black leather surface and a wooden table."
+    },
+    {
+      "file": "riley-triple-batch-68.jpg",
+      "description": "Close-up of a guitar headstock with tuning pegs, showing the back side with the text made in USA and the number 125."
+    },
+    {
+      "file": "riley-triple-batch-69.jpg",
+      "description": "Close-up of a black electronic device with a shiny metallic screw visible on the side."
+    },
+    {
+      "file": "riley-triple-batch-7.jpg",
+      "description": "Green electric guitar with a white pickguard, brown fretboard, and chrome hardware, resting against a black background."
+    },
+    {
+      "file": "riley-triple-batch-70.jpg",
+      "description": "Close-up of a black electric guitar's bridge and saddle with metallic screws, part of the body visible at the bottom"
+    },
+    {
+      "file": "riley-triple-batch-71.jpg",
+      "description": "Close-up of a guitar neck with fretboard, strings, and a pick with branding on it."
+    },
+    {
+      "file": "riley-triple-batch-72.jpg",
+      "description": "A black acoustic guitar resting on a black stool in a cozy room. In the background, a wooden shelf with potted plants and a candle. To the right, a woven chair with a small book on it, placed against a dark wall with a blue hue and warm lighting."
+    },
+    {
+      "file": "riley-triple-batch-73.jpg",
+      "description": "A black acoustic guitar resting on a patterned rug next to a ladder-back chair with woven seat, a small potted plant, a candle, and some other decorative items on a shelf. The scene is dimly lit with a moody ambiance."
+    },
+    {
+      "file": "riley-triple-batch-74.jpg",
+      "description": "A black acoustic guitar resting on a patterned rug in front of a wicker bench with a wall in the background. To the left, there is a small table with potted plants, a glass container, and a red jar with a white lid."
+    },
+    {
+      "file": "riley-triple-batch-75.jpg",
+      "description": "Black acoustic guitar resting on a patterned rug in a cozy room with modern furniture, with a wooden side table holding a small transparent jar and a wooden coaster in the background."
+    },
+    {
+      "file": "riley-triple-batch-76.jpg",
+      "description": "A black acoustic guitar resting on a patterned rug in a dimly lit room, with a small wooden shelf holding potted plants, a candle, and decorative jars, a music stand with sheet music, and a modern floor lamp with a circular light, against a dark blue"
+    },
+    {
+      "file": "riley-triple-batch-8.jpg",
+      "description": "Close-up of a guitar bridge and tailpiece, with visible strings and saddles, set on a green surface."
+    },
+    {
+      "file": "riley-triple-batch-9.jpg",
+      "description": "Close-up of a green electric guitar's body, showing control knobs and a pickup switch."
+    }
+  ],
+  "about": [
+    {
+      "file": "image-asset.jpg",
+      "description": "About image"
+    },
+    {
+      "file": "img-6049.jpg",
+      "description": "About image"
+    }
+  ],
+  "repairs": [],
+  "contact": [],
+  "custom": [
+    {
+      "file": "img-4655.jpg",
+      "description": "IMG_4655.jpg"
+    },
+    {
+      "file": "img-4666.jpg",
+      "description": "IMG_4666-Topaz-Sharpen-Auto-Denoise.jpg"
+    },
+    {
+      "file": "img-4674.jpg",
+      "description": "IMG_4674.jpg"
+    },
+    {
+      "file": "img-4679.jpg",
+      "description": "IMG_4679.jpg"
+    },
+    {
+      "file": "img-4686.jpg",
+      "description": "IMG_4686.jpg"
+    },
+    {
+      "file": "img-4695.jpg",
+      "description": "IMG_4695.jpg"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model — Riley Guitars</title>
+<meta name="description" content="A Riley Guitars build-to-order model, handcrafted in Everett, Washington.">
+<meta name="theme-color" content="#0b0b0b">
+<link rel="icon" href="assets/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/vendor/lenis-1.3.26/lenis.css">
+<script>if(!window.matchMedia||!matchMedia("(prefers-reduced-motion: reduce)").matches){document.documentElement.classList.add("fx-pending");setTimeout(function(){document.documentElement.classList.remove("fx-pending")},3000)}</script>
+</head>
+<body data-page="model">
+<div id="site-header"></div>
+
+<main id="main">
+  <header class="page-hero page-hero-tall" id="model-hero">
+    <div class="container">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="custom-build.html">Custom Build</a><span aria-hidden="true">/</span><span id="crumb-title"></span></nav>
+      <div class="cluster" style="margin-top:22px"><span class="eyebrow accent" id="m-cat"></span><span class="badge badge-custom">Build to order</span></div>
+      <h1 id="m-name" style="margin-top:10px"></h1>
+      <p class="lead" id="m-tagline"></p>
+      <div class="cluster">
+        <a class="btn btn-primary" id="cta-top" href="custom-build.html#start">Start a custom build</a>
+        <a class="btn btn-outline" href="#specs">See the specs</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-tight" aria-label="Photos">
+    <div class="container">
+      <div class="model-gallery" id="m-gallery"></div>
+      <p class="swipe-hint" id="swipe-hint">Swipe for more photos &rarr;</p>
+    </div>
+  </section>
+
+  <section class="section border-top" aria-labelledby="about-title">
+    <div class="container model-body">
+      <div class="stack-lg" id="m-desc-wrap">
+        <span class="eyebrow">The model</span>
+        <h2 id="about-title"></h2>
+        <div class="prose" id="m-desc"></div>
+      </div>
+      <div class="sticky-col stack-lg" id="specs">
+        <span class="eyebrow">Specifications</span>
+        <ul class="spec-list" id="m-specs"></ul>
+        <div class="notice" id="m-ship" hidden></div>
+        <div class="contact-card"><h3>Pricing</h3><p>Custom builds start at <strong>$2,500</strong> and typically take four to six months. The price may vary according to the cost of components such as a custom pickup or bridge.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-surface border-top" id="in-stock" aria-labelledby="stock-title" hidden>
+    <div class="container in-stock-band">
+      <div id="m-stock"></div>
+      <div class="stack-lg">
+        <span class="eyebrow accent">Ready to ship</span>
+        <h2 id="stock-title" class="section-title">Want one right now?</h2>
+        <p class="lead" id="stock-lead"></p>
+        <p><a class="link-arrow" id="stock-link" href="store.html">View this guitar</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section border-top cta-band" aria-labelledby="cta-title">
+    <div class="container-narrow stack-lg">
+      <span class="eyebrow accent">Custom build</span>
+      <h2 id="cta-title" class="section-title">Make it yours.</h2>
+      <p class="lead">Every Riley Guitar is handcrafted one at a time, built around your playing style, tone, and vision. Choose wood, color, finish, hardware, pickups, and any relicing.</p>
+      <div class="cluster"><a class="btn btn-primary" id="cta-bottom" href="custom-build.html#start">Start a custom build</a><a class="btn btn-outline" href="contact.html">Ask a question</a></div>
+    </div>
+  </section>
+
+  <section class="section bg-surface border-top" aria-labelledby="others-title">
+    <div class="container">
+      <div class="section-head row">
+        <div class="stack"><span class="eyebrow accent">Other models</span><h2 id="others-title" class="section-title">Keep looking.</h2></div>
+        <a class="link-arrow" href="custom-build.html#models">All models</a>
+      </div>
+      <div class="cards-grid" id="m-others"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/vendor/gsap-3.15.0/gsap.min.js"></script>
+<script src="assets/vendor/gsap-3.15.0/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/lenis-1.3.26/lenis.min.js"></script>
+<script src="assets/js/effects.js"></script>
+<script>
+  (function () {
+    var UI = window.RileyUI, R = window.RILEY, esc = UI.esc;
+    var m = UI.getModel(UI.param('m')) || R.models[0];   // unknown slug -> first model
+    var $ = function (id) { return document.getElementById(id); };
+
+    document.title = 'Riley ' + m.name + ' — Riley Guitars';
+    document.querySelector('meta[name="description"]').setAttribute('content', m.tagline);
+    $('crumb-title').textContent = m.name;
+    $('m-cat').textContent = m.category;
+    $('m-name').textContent = m.name;
+    $('m-tagline').textContent = m.tagline;
+    $('about-title').textContent = 'About the ' + m.name;
+    var href = 'custom-build.html?m=' + encodeURIComponent(m.slug) + '#start';
+    $('cta-top').href = href; $('cta-bottom').href = href;
+
+    var imgs = m.images || [];
+    $('m-gallery').className = 'model-gallery n-' + imgs.length;
+    $('m-gallery').innerHTML = imgs.map(function (src, i) {
+      return '<a href="' + esc(src) + '" data-lightbox="model" data-caption="Riley ' + esc(m.name) + '" aria-label="Photo ' + (i + 1) + ' of ' + imgs.length + ', open larger">' +
+        '<img src="' + esc(src) + '" alt="Riley ' + esc(m.name) + ' ' + esc(m.category.toLowerCase()) + ' guitar, photo ' + (i + 1) + '" width="900" height="1200"' + (i ? ' loading="lazy"' : ' fetchpriority="high"') + '></a>';
+    }).join('');
+    if (imgs.length < 2) $('swipe-hint').hidden = true;
+
+    $('m-desc').innerHTML = (m.description || []).map(function (t) { return '<p>' + esc(t) + '</p>'; }).join('');
+    $('m-specs').innerHTML = (m.specs || []).map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('');
+    if (m.shipping) { $('m-ship').hidden = false; $('m-ship').innerHTML = UI.icons.check + '<span>' + esc(m.shipping) + '</span>'; }
+
+    // in-stock one-of-one for this model?
+    var stock = R.products.filter(function (p) { return p.modelSlug === m.slug; });
+    if (stock.length) {
+      var p = stock[0];
+      $('in-stock').hidden = false;
+      $('m-stock').innerHTML = UI.productCard(p);
+      $('stock-lead').textContent = 'We have a finished ' + m.name + ' on the wall: ' + p.title + ', ' + UI.money(p.price) + '. One of one, ready to ship from Everett.';
+      $('stock-link').href = 'product.html?p=' + encodeURIComponent(p.slug);
+    }
+
+    var others = R.models.filter(function (x) { return x.slug !== m.slug; });
+    // same category first, then the rest
+    others.sort(function (a, b) { return (b.category === m.category) - (a.category === m.category); });
+    $('m-others').innerHTML = others.slice(0, 4).map(UI.modelCard).join('');
+  })();
+</script>
+</body>
+</html>
